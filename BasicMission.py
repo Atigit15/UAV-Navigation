@@ -25,15 +25,29 @@ async def run():
 
     mission_items = []
 
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
-    mission_items.append(MissionItem(47.398039859999997,8.5455725400000002,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    #First Dropoff location
+    mission_items.append(MissionItem(47.398079,8.545270,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.398079,8.545270,0,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.397742,8.545594,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+
+    #Seconf DL
+    mission_items.append(MissionItem(47.398738,8.545651,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.398738,8.545651,0,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.397742,8.545594,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+
+    #Third DL
+    mission_items.append(MissionItem(47.399091,8.545030,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.399091,8.545030,0,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.397742,8.545594,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+
+    #Fourth DL
+    mission_items.append(MissionItem(47.397703,8.543148,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.397703,8.543148,0,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.397742,8.545594,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+
+    #Fifth DL
+    mission_items.append(MissionItem(47.396958,8.547509,25,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
+    mission_items.append(MissionItem(47.396958,8.547509,0,10,True,float('nan'),float('nan'),MissionItem.CameraAction.NONE,float('nan'),float('nan'),float('nan'),float('nan'),float('nan')))
 
     mission_plan = MissionPlan(mission_items)
 
